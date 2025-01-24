@@ -29,6 +29,7 @@ function bcode(on, code) {
     } catch (error) {
       console.error("Error parsing JSON:", error);
       alert("JSON ERROR");
+      return code;
     }
   } else {
     try {
@@ -43,6 +44,7 @@ function bcode(on, code) {
     } catch (error) {
       console.error("Error parsing JSON:", error);
       alert("JSON ERROR");
+      return code;
     }
   }
 }
